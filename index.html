@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chess | Borad</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+
+  </head>
+  <body>
+	  <div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-1">
+			<div class="list-2 mt-5">
+				<ul class="list-unstyled">
+					<li>8</li>
+					<li>7</li>
+					<li>6</li>
+					<li>5</li>
+					<li>4</li>
+					<li>3</li>
+					<li>2</li>
+					<li>1</li>
+				</ul>			
+			</div>
+			</div>
+			<div class="col-xl-10">
+				<div class="chessboard">
+					<div class="topdiv">
+	<ul class="d-flex flex-wrap list-alpha list-inline">
+		<li class="m-auto p-2 align-content-center">A</li>
+		<li class="m-auto p-2 align-content-center">B</li>
+		<li class="m-auto p-2 align-content-center">C</li>
+		<li class="m-auto p-2 align-content-center">D</li>
+		<li class="m-auto p-2 align-content-center">E</li>
+		<li class="m-auto p-2 align-content-center">F</li>
+		<li class="m-auto p-2 align-content-center">G</li>
+		<li class="m-auto p-2 align-content-center">H</li>
+	</ul>			
+	</div>
+	  					<table id="chesstable" class="d-table table-responsive-xl table-bordered">
+	  	<tr>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  	</tr>
+	  	<tr>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  	</tr>
+	  	<tr>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  	</tr>
+	  	<tr>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  	</tr>
+	  	<tr>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  	</tr>
+	  	<tr>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  	</tr>
+	  	<tr>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  	</tr>
+	  	<tr>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  		<td class="col"></td>
+	  	</tr>
+	  </table>
+	  				<div class="botdiv">
+	<ul class="d-flex flex-wrap list-alpha list-inline">
+		<li class="m-auto p-2 align-content-center">A</li>
+		<li class="m-auto p-2 align-content-center">B</li>
+		<li class="m-auto p-2 align-content-center">C</li>
+		<li class="m-auto p-2 align-content-center">D</li>
+		<li class="m-auto p-2 align-content-center">E</li>
+		<li class="m-auto p-2 align-content-center">F</li>
+		<li class="m-auto p-2 align-content-center">G</li>
+		<li class="m-auto p-2 align-content-center">H</li>
+	</ul>			
+	</div>	
+				</div>
+			</div>
+			<div class="col-xl-1">
+			<div class="list-2 mt-5">
+				<ul class="list-unstyled">
+					<li>8</li>
+					<li>7</li>
+					<li>6</li>
+					<li>5</li>
+					<li>4</li>
+					<li>3</li>
+					<li>2</li>
+					<li>1</li>
+				</ul>			
+			</div>
+			</div>
+		  </div>
+		 <div class="row mb-5 d-flex justify-content-center"> 
+		  <div class="col-4"><strong>Start Value:</strong> <input type="text" class="form-control" id="inputrow" value=""></div>
+		  <div class="col-4"><strong>End Value:</strong> <input type="text" class="form-control" id="inputCol" value=""></div>
+		  <div class="col-2"><button class="btn btn-dark mt-4" onclick="myFunction()">Submit Value</button></div>
+		  </div>
+		 
+	</div>
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.2.1.min.js"></script>
+	
+	<script>
+	var rows = [0,1,2,3,4,5,6,7]
+	var cols = [7,6,5,4,3,2,1,0]
+	var alpha = ['A','B','C','D','E','F','G','H']
+	
+	function  findval(a,d){
+		return {col: rows[alpha.indexOf(a)], row: cols[d-1]}
+	}
+	function myFunction () {
+		
+		var x = document.getElementById("inputrow").value;
+		var y = document.getElementById("inputCol").value;
+		
+		var request = new XMLHttpRequest();
+
+			request.open('GET', 'https://v86wed9i20.execute-api.eu-west-1.amazonaws.com/public/knight-path?start='+ x +'&end='+ y, true);
+			request.onload = function () {
+
+			  // Begin accessing JSON data here
+			  var data = JSON.parse(this.response);
+
+			  if (request.status >= 200 && request.status < 400) {
+				//console.log(data);
+
+				  var obj = JSON.parse(data); 
+				  //console.log(obj);
+				  
+				for (var i = 0; i < obj.length; i++) {
+			
+				var result = findval(obj[i][0], obj[i][1]);
+				//console.log(result);
+
+				document.getElementById("chesstable").rows[result.row].cells[result.col].innerHTML = '<p>Horse ' + (i+1) + '</p>' 
+			}  
+				
+			  } else {
+				console.log('error');
+			  }
+			}
+
+			request.send();
+	}
+	</script>  
+	  
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>

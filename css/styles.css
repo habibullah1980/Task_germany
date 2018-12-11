@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.chessboard table tr td { padding: 30px; width: 200px; height:100px;}
+.chessboard p { position:absolute; left: 0; right: 0; margin: auto; color: #FFF; text-align: center; width: 100%;}
+.chessboard table { background: brown}
+.chessboard table tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+	background: orange;}
+.chessboard table tr { position:relative;}
+.list-alpha li { font-size: 20px; text-align: center}
+.list-2 ul li { padding:36px 20px; text-align: center; font-size: 22px;}
+
